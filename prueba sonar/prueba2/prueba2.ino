@@ -1,8 +1,7 @@
-#define MEDIA_VELOCIDAD_SONIDO 0.017175 // Mitad de la velocidad del sonido a 20 °C expresada en cm/µs
-#define PIN_TRIGGER 8
-#define PIN_ECHO 7
-#define ESPERA_ENTRE_LECTURAS 1000 // tiempo entre lecturas consecutivas en milisegundos
-#define TIMEOUT_PULSO 25000 // la espera máxima de es 30 ms o 30000 µs
+#define SONAR_TRIGGER_PIN 3
+#define SONAR_ECHO_PIN 2
+#define SONAR_TRIGGER_PIN_2 5
+#define SONAR_ECHO_PIN_2 4
 
 
 int microarriba = 37;
