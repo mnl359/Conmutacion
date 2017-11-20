@@ -12,6 +12,7 @@ Este es un programa en arduino para el manejo de un puente basculante(subida o b
 ## Software necesario
 
 * Arduino IDE
+* [App inventor](http://ai2.appinventor.mit.edu)
 
 ## Hardware necesario
 
@@ -21,6 +22,10 @@ Este es un programa en arduino para el manejo de un puente basculante(subida o b
 * Cables varios
 * Protoboard
 * Motor
+
+## Manual de la aplicación
+
+[Manual](https://drive.google.com/open?id=1FOYjgkR5xbiSQAKP4ZcbgP6tHgNWVDbDtZmcmqHLJvA)
 
 
 
