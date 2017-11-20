@@ -181,28 +181,33 @@ int sensor2(){
 void loop()
 {
   if (sensor1() == 1){
-      Serial1.println(1);
+      Serial1.println("1");
       subirO();
       delay(5000);
+      Serial1.println("3+");
     }
-  if(sensor2() == 1){
-    Serial1.println(0);
+  else if(sensor2() == 1){
+    Serial1.println("0");
       bajarO();
-      delay(5000);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+      delay(5000); 
+      Serial1.println("3");                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
   }
   else if (Serial1.available() > 0) 
   {
     data = Serial1.read();  
     if(data == '2'){
-      Serial1.println(2);
+      Serial1.println("2");
       Mantenimiento();
+      delay(2000); 
     }
     else {  
       if (data == '1'){
         subir();
+        Serial1.println("3");
       }
       else if (data == '0') {  
         bajar();
+        Serial1.println("3");
       }
       else
       {
