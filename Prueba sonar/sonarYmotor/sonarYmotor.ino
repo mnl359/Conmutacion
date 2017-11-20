@@ -1,5 +1,5 @@
-#define SONAR_TRIGGER_PIN 3
-#define SONAR_ECHO_PIN 2
+#define PIN_TRIGGER 3
+#define PIN_ECHO 2
 #define SONAR_TRIGGER_PIN_2 5
 #define SONAR_ECHO_PIN_2 4
 
